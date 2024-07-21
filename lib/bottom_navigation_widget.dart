@@ -41,10 +41,7 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
         backgroundColor: Colors.white,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(
-              IconFont.iconIndex,
-              size: 22.0,
-            ),
+            icon: Icon(IconFont.iconIndex, size: 22.0),
             label: '首页',
           ),
           BottomNavigationBarItem(

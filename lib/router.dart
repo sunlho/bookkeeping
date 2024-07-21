@@ -3,7 +3,7 @@ import 'dart:core';
 import 'package:bot_toast/bot_toast.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:bill/bottom_navigation_widget.dart';
+import 'package:bill/nav-bar.dart';
 
 import 'package:bill/pages/task/tasks.dart';
 import 'package:bill/pages/task/create-task.dart';
@@ -44,7 +44,7 @@ final router = GoRouter(
   routes: [
     GoRoute(
       path: '/',
-      builder: (context, state) => BottomNavigationWidget(),
+      builder: (context, state) => TabPage(),
       routes: [
         // GoRoute(
         //   name: 'login',

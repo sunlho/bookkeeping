@@ -43,6 +43,11 @@ dependencies:
   positioned_tap_detector_2: 1.0.4
   status_bar_control: 3.2.1
   go_router: ^14.2.1
+  provider: ^6.1.2
+  logger: ^2.4.0
+  sqflite: ^2.3.3+1
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.3
 
 dev_dependencies:
   flutter_test:
